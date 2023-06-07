@@ -1,0 +1,28 @@
+
+  
+  /* Set the width of the left 2/3 of the page */
+  @media (min-width:1000px){
+    .container-fluid {
+        width: 66.67%;
+      }
+}
+
+
+
+
+@media (min-width: 767px) and (max-width:1000px){
+    .custom-col {
+      flex: 0 0 50%;
+      max-width: 100%;
+    }
+  }
+
+ 
+@media (max-width: 575.98px) {
+    .custom-col {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
+  

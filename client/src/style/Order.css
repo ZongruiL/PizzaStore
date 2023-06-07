@@ -1,0 +1,10 @@
+.item-layout{
+    margin-left: 200px;
+}
+
+@media (max-width: 1250px) {
+
+   .item-layout{
+    margin-left: 0px;
+}
+}
